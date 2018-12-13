@@ -45,7 +45,7 @@ npm i omi-chart
 import 'omi-chart'
 
 define('my-app', class extends WeElement {
-  install(){
+  install() {
     this.chartData = {
       labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
       datasets: [{
